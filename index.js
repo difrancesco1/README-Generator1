@@ -119,3 +119,27 @@ const questions = [
     },
     
 ];
+
+
+// function for writing the file
+
+function writeToFile(fileName, data) {
+    fs.writeFile("./read-me-files/"+fileName, data, function(err) {
+        if (err) {
+            return console.log(err);
+        }
+    })
+}
+
+// function that initializes the application
+
+
+function init() {
+    inquirer.prompt(questions)
+    .then(function(data) {
+        writeToFile("README.md", generateMarkdown(data));
+    })
+}
+
+// Function call to initialize app
+init();
