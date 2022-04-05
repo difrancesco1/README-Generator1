@@ -35,7 +35,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Please list the intructions to instal and run your application!',
+        message: 'Please list the intructions to install and run your application!',
         name:  'installation',
         validate: installationInput => {
             if (installationInput) {
@@ -48,13 +48,13 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'How do you run your application?',
+        message: 'What is primary use case for your application?',
         name:  'usage',
         validate: usageInput => {
             if (usageInput) {
               return true;
             } else {
-              console.log('How do you run your application?');
+              console.log('What is primary use case for your application?');
               return false;
             }
           }
@@ -63,7 +63,7 @@ const questions = [
         type: 'list',
         message: 'Which lisence would you like to use?',
         name:  'license',
-        choices: ['MIT', 'Apache', 'MPL', 'None']
+        choices: ['MIT', 'MPL', 'Apache', 'None']
     },
     {
         type: 'input',
