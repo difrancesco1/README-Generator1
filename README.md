@@ -1,7 +1,4 @@
 
-    <img src="https://img.shields.io/github/license/difrancesco1/README-Generator1">
-  
-    
     # README-Generator1
     
     # Description  
