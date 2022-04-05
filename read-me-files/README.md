@@ -5,7 +5,7 @@
     # README-Generator1
     
     # Description  
-    This application is used to generate a professional README file using node
+    To create professional README files for your projects
   
     # Table of Contents
     * [Installation](#installation)
@@ -17,11 +17,11 @@
   
     # Installation
     These programs need to be installed for the application to run: 
-    You need to install npm and Node.js
+    You are reuired to have node.js installed and install npm
   
     # Usage
     The primary use of this application: 
-    node index.js
+    The user is to follow the prompts so they can generate a README file for their project
     
     # License 
       MIT
